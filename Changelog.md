@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.0.0-rc.1](https://github.com/vobarian/node-mysql2/compare/v3.0.0-rc.1...v3.0.0-rc.1) (2022-12-19)
+
+
+### Features
+
+* allow using `dateStrings` with specific types ([26126b1](https://github.com/vobarian/node-mysql2/commit/26126b1646e3b71478cd15b2e3562fabf94f5249)), closes [#99](https://github.com/vobarian/node-mysql2/issues/99)
+* **poolCluster:** add execute method ([703a9e3](https://github.com/vobarian/node-mysql2/commit/703a9e32ad693a94391289236861de2e069caf4f))
+* **poolCluster:** add promise version ([2cfecd9](https://github.com/vobarian/node-mysql2/commit/2cfecd9a5d48987ba98ce7a8de26d26399cda7f6))
+* **poolCluster:** add query method ([b1fa0a3](https://github.com/vobarian/node-mysql2/commit/b1fa0a3b3225ff711c7f35d0f0c394ba2db89f25))
+* **query:** add timeout option ([5fa053a](https://github.com/vobarian/node-mysql2/commit/5fa053ade98ddd268dae4deef52aa117c44cd818))
+* **query:** add timeout test ([6bc6d86](https://github.com/vobarian/node-mysql2/commit/6bc6d869cb4217039618eb4244ef67b9388685f4))
+
+
+### Bug Fixes
+
+* fix:  ([3be6a8d](https://github.com/vobarian/node-mysql2/commit/3be6a8d31aa1d01863a3f421d115c378168288e5))
+* add warning for not specifying charset when using JSON ([722d967](https://github.com/vobarian/node-mysql2/commit/722d96728437fc25ad1528e3cfc02941f78d0db7))
+* added error argument to rollback method callback ([384e993](https://github.com/vobarian/node-mysql2/commit/384e9933f29bd17447be066c56de1bb1d5002e17))
+* added missing declaration of escapeId ([77d943d](https://github.com/vobarian/node-mysql2/commit/77d943d69079646a3f98c4c168682c00dfcd90c0))
+* added table to cache key for nestTables ([ea4dab3](https://github.com/vobarian/node-mysql2/commit/ea4dab38e611ac92844ce3b848f94008ef5e4a96)), closes [#1142](https://github.com/vobarian/node-mysql2/issues/1142)
+* **connection:** ensure pooled connections get released ([ac78e29](https://github.com/vobarian/node-mysql2/commit/ac78e2963b8dfed7d3b1ddf92de4db255ec299fc))
+* edit comment for consistency ([ed189cb](https://github.com/vobarian/node-mysql2/commit/ed189cbf468434806da116ce669fc5512e8c2a13))
+* enhance auth 14 ([e56970c](https://github.com/vobarian/node-mysql2/commit/e56970cc69fe7d6d5fbbb795811bdf849ab9924b))
+* fixes pool ignoring namedPlaceholders config ([a3a939f](https://github.com/vobarian/node-mysql2/commit/a3a939f1596fd37d7fe18b8aa2c52f1aa7090c04))
+* initial handshake packet parse issue (incorrect authPluginData2) ([3408278](https://github.com/vobarian/node-mysql2/commit/3408278dbacd6e6518de85ade26a8fe04c08e36d))
+* **timeout:** clear timeout when error ([2f1014c](https://github.com/vobarian/node-mysql2/commit/2f1014c1cc784b130fbbf1c78f4f93820ab5ff76))
+* **timeout:** execute add timeout option ([309703a](https://github.com/vobarian/node-mysql2/commit/309703a3be99c88feca8c7a5dd1fd0c788ef4cb7))
+* **typings:** Add the infileStreamFactory option to the type definition ([bf9cc4c](https://github.com/vobarian/node-mysql2/commit/bf9cc4c41e72f4a9014659a22b131739524bda1c))
+* use PoolOptions type instead of PoolClusterOptions ([b275d55](https://github.com/vobarian/node-mysql2/commit/b275d55bbe48d29da4f7a85cee7c08b373f348f6))
+* webpack projects no longer show warning for cardinal dependency ([26c56ae](https://github.com/vobarian/node-mysql2/commit/26c56ae64846814eb8234c0d352871a7b6651d66))
+
+
+### Miscellaneous Chores
+
+* v3.0.0-rc.1 changes ([1b684bb](https://github.com/vobarian/node-mysql2/commit/1b684bbf8047200e5de5dd18874872880237de2f))
+
 ## [3.0.0-rc.1](https://github.com/sidorares/node-mysql2/compare/v2.3.3...v3.0.0-rc.1) (2022-11-06)
 
 
